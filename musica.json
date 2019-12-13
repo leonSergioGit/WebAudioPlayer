@@ -1,0 +1,53 @@
+[
+    {
+        "cancion": "La Leyenda del Tiempo",
+        "autor": "Camarón",
+        "ruta": "./audi/1-La Leyenda Del Tiempo.mp3"
+    },
+    {
+        "cancion": "Tangos de la Sultana",
+        "autor": "Camarón",
+        "ruta": "./audi/2-Tangos De La Sultana.mp3"
+    },    
+    {
+        "cancion": "Romance Del Amargo",
+        "autor": "Camarón",
+        "ruta": "./audi/3-Romance Del Amargo.mp3"
+    },
+    {
+        "cancion": "Homenaje a Federico",
+        "autor": "Camarón",
+        "ruta": "./audi/4-Homenaje A Federico.mp3"
+    },
+    {
+        "cancion": "Mi Niña se fue a la Mar",
+        "autor": "Camarón",
+        "ruta": "./audi/5-Mi Niña Se Fue A La Mar.mp3"
+    },
+    {
+        "cancion": "La Tarara",
+        "autor": "Camarón",
+        "ruta": "./audi/6-La Tarara.mp3"
+    },
+    {
+        "cancion": "Volando Voy",
+        "autor": "Camarón",
+        "ruta": "./audi/7-Volando Voy.mp3"
+    },
+    {
+        "cancion": "Bahía de Cádiz",
+        "autor": "Camarón",
+        "ruta": "./audi/8-Bahía De Cádiz.mp3"
+    },
+    {
+        "cancion": "Viejo Mundo",
+        "autor": "Camarón",
+        "ruta": "./audi/9-Viejo Mundo.mp3"
+    },
+    {
+        "cancion": "Nana Del Caballo Grande",
+        "autor": "Camarón",
+        "ruta": "./audi/10-Nana Del Caballo Grande.mp3"
+    }
+
+]
