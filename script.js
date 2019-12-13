@@ -41,12 +41,17 @@ playBtn.addEventListener("click", () => {
 reproductor.addEventListener("ended", () => {
     let cancion = cancionActual.innerText;
     let siguienteCancion = "";
+    let tituloCancion = "";
     for(let i = 0; i < state.data.length; i++){
         if(cancion === state.data[i].cancion){
             if(i === state.data.length - 1){
                 siguienteCancion = state.data[0].ruta;
+                tituloCancion = state.data[0].cancion;
+                cancionActual.innerText = tituloCancion;
             } else {
                 siguienteCancion = state.data[i + 1].ruta;
+                tituloCancion = state.data[0].cancion;
+                cancionActual.innerText = tituloCancion;
             }
            
         }
