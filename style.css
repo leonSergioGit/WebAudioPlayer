@@ -23,6 +23,7 @@ body {
 
 
 
+
 .reproductor {
     font-size: 30px;
 }
@@ -49,7 +50,25 @@ body {
 
 .spanCont {
     display: flex;
-    justify-content: space-around;
-   
+   justify-content: space-around;
+   align-items: center;
 }
 
+.tiempoYvolumen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bajarVol:hover {
+    background-color: gray;
+}
+
+.subirVol:hover {
+    background-color: gray;
+}
+
+.bajarVol, .subirVol {
+    text-align: center;
+    cursor: pointer;
+}
