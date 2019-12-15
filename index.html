@@ -14,18 +14,26 @@
         <div class="reproductor">
             <div>Seleccione una cancion</div>
             <div>Cancion: <span class="cancionActual"></span></div>
+
+            <input type="button" id="previous" value="&#8249;">
             <input type="button" id="play" value="PLAY">
-            <input type="button" id="stop" value="STOP">
-            <input type="button" id="previous" value="previous">
-            <input type="button" id="next" value="next">
-            <br> <br>
+            <input type="button" id="next" value="&#8250;">
+            <br>
+            <div class="contStop"><input type="button" id="stop" value="STOP"></div>
             <div class="barContainer">
-                
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped" role="progressbar"  aria-valuenow="10" style="display: block" aria-valuemin="0" aria-valuemax="100"> </div>
+                <div class="contTime">
+                    <div class="spanCont"><span class="span1">00:00</span></div>
+                    <div class="progress d-block w-100">
+                        <div class="progress-bar progress-bar-striped barbar" role="progressbar"  aria-valuenow="10" style="display: block" aria-valuemin="0" aria-valuemax="100"> </div>
+        
+                        <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+                    
+                    </div>
+                    <div class="spanCont"><span class="span2">00:00</span></div>
                 </div>
+ 
                 <div class="tiempoYvolumen">
-                    <div class="spanCont"><span class="span1">00:00</span><span class="span2">00:00</span></div>
+                    
                     <div>
                         <div class="subirVol">+</div>
                         <div class="bajarVol">-</div>

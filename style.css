@@ -1,19 +1,20 @@
 * {
     padding: 0;
     margin: 0;
-    color: white;
 }
 
 body {
     height: 100vh;
-    background-image: url('./1498562408_066409_1498566491_portadilla_normal.jpg');
+    background-image: url('./1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #ffb3ab;
 }
 
 .container {
     display: flex;
-    width: 70%;
+    flex-direction: column;
+    width: 50%;
     margin: 0 auto;
     padding: 100px auto 0;
     height: 100%;
@@ -21,11 +22,31 @@ body {
     justify-content: center;
 }
 
+.contTime {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
 
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
 
+h1:hover {
+    color: gray;
+}
 
 .reproductor {
     font-size: 30px;
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 .reproductor > input {
@@ -35,6 +56,10 @@ body {
 
 .cancionesNombres {
     color: black;
+    background-color: #d9cbca;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
 }
 
 .cancionesNombres > h1 {
@@ -50,8 +75,10 @@ body {
 
 .spanCont {
     display: flex;
-   justify-content: space-around;
-   align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 19px;
+    margin: 0 5px 0 5px;
 }
 
 .tiempoYvolumen {
@@ -62,13 +89,94 @@ body {
 
 .bajarVol:hover {
     background-color: gray;
+    color: black;
 }
 
 .subirVol:hover {
     background-color: gray;
+    color: black;
 }
 
 .bajarVol, .subirVol {
     text-align: center;
     cursor: pointer;
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-bottom: 5px;
+}
+
+.progress {
+   position: relative;
+   flex-grow: 5;
+   height: 1.3rem;
+}
+
+#myRange {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.barbar {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#previous {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+#next {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+#play {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+#next:hover {
+    background-color: gray;
+    color: black;
+}
+
+#play:hover {
+    background-color: gray;
+    color: black;
+}
+
+#previous:hover {
+    background-color: gray;
+    color: black;
+}
+
+.contStop {
+    margin: 10px 0 10px 0;
+}
+
+#stop {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+#stop:hover {
+    background-color: gray;
+    color: black;
 }
